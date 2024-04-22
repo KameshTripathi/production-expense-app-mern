@@ -9,6 +9,7 @@ const colors = require('colors')
 // import dotenv
 const dotenv = require('dotenv')
 const connectDb = require('./config/connectDb') // gets automatically imported when connectDb() is called.
+const path = require('path')
 
 
 // config .env file
